@@ -1,15 +1,15 @@
 <template>
     <section class="banner center">
       <div class="banner__intro">
-        <h1 class="banner__intro-title">Articles & News</h1>
-        <p class="banner__intro-text">Home / Blog</p>
+        <h1 class="banner__intro-title">Our Project</h1>
+        <p class="banner__intro-text">Home / Project</p>
       </div>
     </section>
   </template>
   
   <script>
   export default {
-    name: 'BlogPageBaner',
+    name: 'ProjectPageBaner',
   
     data () {
       return {
@@ -31,7 +31,7 @@
   @import "../../../scss/vars";
   
   .banner {
-    background-image: url("../../../assets/images/banner_top.jpg");
+    background-image: url("../../../assets/images/ProjectBaner.jpg");
     height: 356px;
     display: flex;
     justify-content: center;
