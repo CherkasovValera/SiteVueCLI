@@ -42,7 +42,7 @@
   </script>
   
   <style lang="scss" scoped>
-  @import "../../../scss/vars";
+  @import "@/scss/vars";
   
   .counter {
     padding-top: 151px;
